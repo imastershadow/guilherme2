@@ -1,9 +1,6 @@
 package abstractfactory;
 
-/**
- *
- * @author 0422
- */
+
 public class Moto {
     Roda17 roda;
     Motor1500cc motor; 
