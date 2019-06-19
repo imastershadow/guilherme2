@@ -1,6 +1,7 @@
 
 package singleton;
 
+
 public class Main {
     public static void main(String[] args) {
         
@@ -10,7 +11,7 @@ public class Main {
     AgroComplem1.QtProteina="22%";
     AgroComplem1.Animal="Vaca Leite";
   
-    System.out.println("Informações: " + AgroComplem1 + " Ração: " + AgroComplem1.Ração + " QtProteina: " + AgroComplem1.QtProteina + AgroComplem1 + "Animal" + AgroComplem1.Animal);
+    System.out.println("Informações: " + " Ração: " + AgroComplem1.Ração + " QtProteina: " + AgroComplem1.QtProteina + "Animal :" + AgroComplem1.Animal);
     
     System.out.println("");
     
@@ -19,6 +20,6 @@ public class Main {
     AgroComplem2.QtProteina="18%";
     AgroComplem2.Animal="Vaca Corte";
     
-    System.out.println("Informações: " + AgroComplem1 + " Ração: " + AgroComplem1.Ração + " QtProteina: " + AgroComplem1.QtProteina + AgroComplem1 + "Animal" + AgroComplem1.Animal);
+    System.out.println("Informações: " + " Ração: " + AgroComplem1.Ração + " QtProteina:" + AgroComplem1.QtProteina + "Animal :" + AgroComplem1.Animal);
 }
 }
