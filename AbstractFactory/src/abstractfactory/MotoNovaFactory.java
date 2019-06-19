@@ -1,9 +1,6 @@
 package abstractfactory;
 
-/**
- *
- * @author 0422
- */
+
 public class MotoNovaFactory extends MotoFactory{
     public Roda17 montarRoda() {
         return new RodaLigaLeve17();
