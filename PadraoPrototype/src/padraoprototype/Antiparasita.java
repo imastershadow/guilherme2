@@ -3,9 +3,9 @@ package padraoprototype;
 public class Antiparasita extends  ProdutoPrototype {
 
 
-    public Antiparasita(Antiparasita tenis) {
-        this.informaçao = tenis.getInformaçao();
-        this.marca = tenis.getMarca();
+    public Antiparasita(Antiparasita parasita1) {
+        this.informaçao = parasita1.getInformaçao();
+        this.marca = parasita1.getMarca();
     }
 
     public Antiparasita() {
