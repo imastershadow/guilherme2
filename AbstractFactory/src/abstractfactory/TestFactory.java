@@ -1,9 +1,6 @@
 package abstractfactory;
 
-/**
- *
- * @author 0422
- */
+
 public class TestFactory {
      private static Moto montarMoto(String tipo){
         MotoFactory cf = null;
