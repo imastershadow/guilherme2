@@ -5,24 +5,24 @@ package abstractfactory;
  * @author 0422
  */
 public class TestFactory {
-     private static Moto montarCarro(String tipo){
+     private static Moto montarMoto(String tipo){
         MotoFactory cf = null;
         switch(tipo){
-            case"novo":
+            case"Nova":
                 cf = new MotoNovaFactory();
                 break;
-            case "atual":
+            case "Velha":
                 cf = new MotoVelhaFactory();
             }
-        Moto carro = new Moto();
-        carro.setRoda(cf.montarRoda());
-        carro.setMotor(cf.montarMotor());
-        return carro;
+        Moto moto = new Moto();
+        moto.setRoda(cf.montarRoda());
+        moto.setMotor(cf.montarMotor());
+        return moto;
      }
      
      public static void main(String [] args){
-         Moto c1 = montarCarro("novo");
-         Moto c12 = montarCarro("atual");
+         Moto c1 = montarMoto("Nova");
+         Moto c12 = montarMoto("Velha");
          System.out.println("END"); 
      }
      
@@ -31,3 +31,4 @@ public class TestFactory {
         
 }
     
+
